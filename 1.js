@@ -1,7 +1,7 @@
 let isNumber
 isNumber = prompt('Введите значение')
 isNumber = +isNumber
-if(isNumber !== NaN && typeof isNumber    == "number") {
+if(isNumber !== NaN) {
     x = isNumber
     if(x % 2 === 0) {
         console.log('число четное')
