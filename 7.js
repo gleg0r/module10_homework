@@ -6,10 +6,10 @@ let remains
 let x
 for(let i = 0; i < arr.length; i++) {
     x = arr[i]
-    if(typeof arr[i] != 'number' || arr[i] == null) {
+    if(typeof arr[i] !== 'number' || arr[i] === null) {
         continue
     }
-    if(arr[i] == 0) {
+    if(arr[i] === 0) {
         zero++
         continue
     }

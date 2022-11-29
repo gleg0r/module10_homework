@@ -1,8 +1,5 @@
-let x
-let type
-x = 'adff'
-type = typeof x
-console.log(type)
+let x = 'adff'
+let type = typeof x
 switch (type) {
     case 'number':
         console.log('x - число');

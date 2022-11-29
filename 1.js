@@ -1,6 +1,4 @@
-let isNumber
-isNumber = prompt('Введите значение')
-isNumber = +isNumber
+let isNumber = +prompt('Введите значение')
 if(isNumber !== NaN) {
     x = isNumber
     if(x % 2 === 0) {
